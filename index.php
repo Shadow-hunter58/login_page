@@ -49,32 +49,24 @@
         <form method="post" action="register.php">
           <div class="input-group">
               <i class="fas fa-envelope"></i>
-              <label>
-                <span>Email</span>
               <input type="email" name="email" id="email" placeholder="Email" required>
-              </label>
-
+              <label for="email">Email</label>
           </div>
           <div class="input-group">
               <i class="fas fa-lock"></i>
-              <label>
-                <span>Password</span>
               <input type="password" name="password" id="password" placeholder="Password" required>
-              </label>
+              <label for="password">Password</label>
           </div>
-          <div class="remeber-forget"> 
-             <label><input type="checkbox" name="remember">remember me</label>
-            </div>
-          <p class="recover">
+          <div class="remember-forget">
+            <label><input type="checkbox"> Remember me</label>
             <a href="#">Recover Password</a>
-          </p>
+        </div>
+        
          <input type="submit" class="btn" value="Sign In" name="signIn">
         </form>
-
+          
         </p>
-        <div class="icons">
-         
-        </div>
+        
         <div class="links">
           <p>Don't have account yet?</p>
           <button id="signUpButton">Sign Up</button>
@@ -83,4 +75,3 @@
       <script src="script.js"></script>
 </body>
 </html>
-s
